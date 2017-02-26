@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>b.html</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+	<h1>测试请求参数</h1>
+	<!-- 超链接为get请求 -->
+	<a href="/Servlet/Servlet001?xxx=XXX&yyy=YYY">点击这里</a>
+	
+	<!-- action处写一个servlet的路径 -->
+	<form action="/Servlet/Servlet001" method="post">
+		用户名:<input type="text" name="username"/><br/>
+		密&nbsp码:<input type="password" name="password"/><br/>
+		爱&nbsp好:<input type="checkbox" name="hobby" value="cf"/>吃饭
+		<input type="checkbox" name="hobby" value="sj"/>睡觉
+		<input type="checkbox" name="hobby" value="xdm"/>写代码
+		<br/>
+		<input type="submit" value="提交"/>	
+	</form>
+  </body>
+</html>
+
+
+
